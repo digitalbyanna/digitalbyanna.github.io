@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>@digitalbyanna Shop</title>
+<!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;900&display=swap" rel="stylesheet">         
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+/* Text Styling */
+            h1{
+                font-family: 'Raleway', sans-serif;
+                background-color: rgb(210, 178, 230);
+            }
+            h2{
+                font-family: 'Raleway', sans-serif;
+                background-color: aliceblue;
+                text-align: center; 
+            }
+            h3 {
+                background-color: rgba(245, 245, 245, 0.612);
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                color: black;
+            }
+            h4 {
+                font-family: 'Raleway', sans-serif;
+                padding-left: 20px;
+            }
+            p{
+                font-family: 'Raleway', sans-serif;
+            }
+            .p {
+                margin-right: 5px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+/* General Section Styling */
+            .menu {
+                font-family: 'Raleway', sans-serif;
+                font-size: 25px;
+                background-color: whitesmoke;
+            }
+            body {
+                background-image: url(websitebackground.png);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            nav {
+                display: flex;
+                justify-content: space-evenly;
+                background-color: whitesmoke;
+            }
+
+ /* Image Styling */
+            @media screen and (max-width:700px) {
+                .menu {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (min-width:100%) {
+                #t2 {
+                    color: black;
+                }
+            }
+            
+/* Heading Styling */
+            #t1 {
+               width: 15%;
+               }
+            #t2 {
+               width: 85%;
+               }
+            #TitleLogo {
+               display: flex;
+               align-content: center;
+               justify-content: center;
+               background-image: url(background.png);
+               background-size: cover;
+            }
+           #logo {
+                width: 85%;
+                padding: .25em;
+                margin: .25em;
+            }
+            #igHandle {
+                width: 70%;
+                align-self:center;
+                justify-content: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }     
+  
+/*MENU BAR*/
+            .menu {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-size: 25px;
+                background-color: whitesmoke;
+            }                
+            #home:visited {
+                color: black;            
+            }   
+            #home:hover {
+                color: #d7e0a6;
+            }
+            #products:visited {
+                color: black;
+            }
+            #products:hover {
+                color: #d69090;
+            }
+            #about:visited {
+                color: black;
+            }            
+            #about:hover {
+                color: #e3a16f;
+            }
+            #contact:visited {
+                color: black;
+            }            
+            #contact:hover {
+                color: #c89ed6;
+            }
+
+/*CONTACT FORM*/
+            * {box-sizing: border-box;}
+
+        /* Style inputs with type="text", select elements and textareas */
+            input[type=text], select, textarea {
+                width: 100%; /* Full width */
+                padding: 12px; /* Some padding */ 
+                border: 1px solid #ccc; /* Gray border */
+                /*border-radius: 4px;  Rounded borders */
+                /*box-sizing: border-box;  Make sure that padding and width stays in place*/
+                margin-top: 6px; /* Add a top margin */
+                margin-bottom: 16px; /* Bottom margin */
+                resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+                font-family: 'Raleway', sans-serif;
+            }
+
+        /* Style the submit button with a specific background color etc */
+            input[type=submit] {
+                background-color: #c89ed6;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                /*border-radius: 4px;*/
+                cursor: pointer;
+                font-family: 'Raleway', sans-serif;
+            }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+            input[type=submit]:hover {
+                background-color: #d7e0a6;
+                font-family: 'Raleway', sans-serif;
+            }
+
+        /* Add a background color and some padding around the form */
+            .container {
+                border-radius: 5px;
+                background-color: #e3a16f;
+                padding: 10px;
+                margin: 10px;
+                font-family: 'Raleway', sans-serif;
+            }
+        /* Create two columns that float next to eachother */
+            .column {
+                float: left;
+                width: 50%;
+                margin-top: 6px;
+                padding: 20px;
+                font-family: 'Raleway', sans-serif;
+            }
+
+        /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                font-family: 'Raleway', sans-serif;
+                }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+            .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+/* Footer styling */            
+            footer {
+                position: relative;
+                left: 0;
+                bottom: 0;
+                width: 100%; 
+                text-align: center;
+            }
+            #footertext {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                font-size: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+    <!--Logo & Title-->
+        <header id="TitleLogo">
+            <div id="t1">
+                <img id="logo" src="Logo.JPG">
+            </div>             
+            <div id="t2">
+                <img id="igHandle" src="igHandle.png">
+            </div>
+        </header>
+    
+    <!--Menu Bar-->
+        <nav id="menu">
+            <div class="menu">
+                <a id="home" href="index.html">HOME</a>
+            </div>
+            <div class="menu">
+                <a id="products" href="products.html">PRODUCTS</a>
+            </div>
+            <div class="menu">
+                <a id="about" href="about.html">ABOUT</a>
+            </div>
+            <div class="menu">
+                <a id="contact" href="contact.html">CONTACT</a>
+            </div>
+        </nav>
+
+<!--Contact Form-->
+        <br>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact @digitalbyanna</h2>
+                <p>Send me a message, request or question:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="Logo.JPG" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" 
+                placeholder="Your name..">
+          
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" 
+                placeholder="Your last name..">
+          
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic">
+                        <option class="selectoption" value="selectoption">Select Option</option>
+                        <option value="commission">Commission Request</option>
+                        <option value="suggestions">Suggestions/Feedback</option>
+                        <option value="websupport">Web support</option>
+                    </select>
+          
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject"
+                placeholder="Write something.." style="height:200px">
+                </textarea>
+                    <input type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+    </div>
+
+<!--Footer Section-->
+        <footer>
+            <h2 id="footertext"> Copyright ©2021 @digitalbyanna. All rights reserved. </h2>
+        </footer>
+    </body>
+</html> 
